@@ -1,5 +1,5 @@
 # LMS
-Library Management System
+##Library Management System
 
 As the name this program would keep a proper record of books in library, 
 books lending record and late fines record too. It’s a python-based CLI program 
@@ -16,27 +16,27 @@ attempts for credentials and it will be closed.
 Database Name – LMS
 Tables Name – Books, Book_Borrowers and Students 
 
-What options you will have in the program?
+**What options you will have in the program?**
 
-For Keeping Books Record
+**For Keeping Books Record**
 1. Add Books
 2. Update Books
 3. Delete Books
 
-For Lend and Receive Books
+**For Lend and Receive Books**
 1. Issue Books
 2.Submit Books
 
-To Search Books
+**To Search Books**
 1. Show All Books
 2. Search Local
 3. Search Online Books
 
-For Late Fines
+**For Late Fines**
 1. Total Fines
 2. Late Fines History
 
-Its special features
+**Its special features**
 Clear screen by clear command.
 Beep Sound with incorrect commands.
 Link to developers’ website is there.
@@ -45,6 +45,6 @@ It can search books online in many websites for pdf version for free, look for
 the book in e-commerce book stores and also summary of the book in 
 YouTube.
 
-Limitation of the program is the limitation of MySQL and Python itself.
+>Limitation of the program is the limitation of MySQL and Python itself.
 
 Author - Ajay Kisku
