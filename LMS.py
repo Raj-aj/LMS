@@ -749,8 +749,10 @@ def main():
             online_books()
         elif lms in 'dev devs devloper devlopers'.split():
             about_devs()
-        elif lms in 'aj ajay kisku ajaykisku ajay_kisku'.split():
+        elif lms in 'aj ajay kisku ajaykisku ajay_kisku ajay-kisku'.split():
             web.open('http://rajaj1.000webhostapp.com/Kisku.jpg')
+        elif lms in 'rohan rohan_kumar rohan-kumar'.split():
+            web.open('http://rajaj1.000webhostapp.com/Rohan.jpg')
         elif lms in 't total'.split():
             total_late_fine()
         elif lms in 'f fine'.split():
