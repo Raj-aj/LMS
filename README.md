@@ -25,7 +25,7 @@ Tables Name – Books, Book_Borrowers and Students
 
 **For Lend and Receive Books**
 1. Issue Books
-2.Submit Books
+2. Submit Books
 
 **To Search Books**
 1. Show All Books
@@ -41,7 +41,9 @@ Tables Name – Books, Book_Borrowers and Students
 2. Beep Sound with incorrect commands.
 3. Link to developers’ website is there.
 4. It has a book art, welcome art and welcome message by author’s voice.
-5. It can search books online in many websites for pdf version for free, look for the book in e-commerce book stores and also summary of the book in YouTube.
+5. It can search books online in many websites for pdf version for free,
+look for the book in e-commerce book stores and also summary of the book in YouTube.
+
 
 >Limitation of the program is the limitation of MySQL and Python itself.
 
