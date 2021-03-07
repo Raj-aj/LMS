@@ -1,5 +1,5 @@
 # LMS
-##Library Management System
+## Library Management System
 
 As the name this program would keep a proper record of books in library, 
 books lending record and late fines record too. It’s a python-based CLI program 
@@ -16,7 +16,7 @@ attempts for credentials and it will be closed.
 Database Name – LMS
 Tables Name – Books, Book_Borrowers and Students 
 
-**What options you will have in the program?**
+### **What options you will have in the program?**
 
 **For Keeping Books Record**
 1. Add Books
