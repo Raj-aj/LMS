@@ -1,5 +1,4 @@
-# LMS
-## Library Management System
+# LMS - Library Management System
 
 As the name this program would keep a proper record of books in library, 
 books lending record and late fines record too. It’s a python-based CLI program 
