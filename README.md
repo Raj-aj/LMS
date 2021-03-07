@@ -37,13 +37,11 @@ Tables Name – Books, Book_Borrowers and Students
 2. Late Fines History
 
 **Its special features**
-Clear screen by clear command.
-Beep Sound with incorrect commands.
-Link to developers’ website is there.
-It has a book art, welcome art and welcome message by author’s voice.
-It can search books online in many websites for pdf version for free, look for 
-the book in e-commerce book stores and also summary of the book in 
-YouTube.
+1. Clear screen by clear command.
+2. Beep Sound with incorrect commands.
+3. Link to developers’ website is there.
+4. It has a book art, welcome art and welcome message by author’s voice.
+5. It can search books online in many websites for pdf version for free, look for the book in e-commerce book stores and also summary of the book in YouTube.
 
 >Limitation of the program is the limitation of MySQL and Python itself.
 
