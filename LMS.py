@@ -615,7 +615,7 @@ def submit_book():
 def late_fine():
     
     cur.execute('update book_borrowers set total_days=datediff(CURRENT_TIMESTAMP,borrowed_date),fine_amount=total_days-5   where `submit_date`=0;')
-    cur.execute('update _a.book_borrowers set fine_amount=0 where fine_amount<0')
+    cur.execute('update book_borrowers set fine_amount=0 where fine_amount<0')
 
     print('Color Code Explained :\n Green  > Book Submitted \n Red    > Book Not Submitted + Submit Date has crossed \n Yellow > Book Not Submitted + Submit Date has not crossed\n\n')
     
@@ -642,7 +642,7 @@ def late_fine():
 
 def total_late_fine():
     cur.execute('update book_borrowers set total_days=datediff(CURRENT_TIMESTAMP,borrowed_date),fine_amount=total_days-5   where `submit_date`=0;')
-    cur.execute('update _a.book_borrowers set fine_amount=0 where fine_amount<0')
+    cur.execute('update book_borrowers set fine_amount=0 where fine_amount<0')
     cur.execute('select adm_no,name,sum(fine_amount) from book_borrowers group by adm_no')
     print(' Total Late Fine\n')
     print(' Adm','\t','Fine','\t','Name')
